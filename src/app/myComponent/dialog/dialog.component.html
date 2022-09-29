@@ -1,0 +1,23 @@
+<h1 mat-dialog-title>User Details</h1>
+<div mat-dialog-content>
+<form [formGroup]="userDetailForm">
+    <mat-form-field appearance="fill">
+        first name:<input formControlName="firstName" type="text" matInput>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        last name:<input formControlName="lastName" type="text" matInput>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        Age:<input formControlName="Age" type="number" matInput>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+        location:<input formControlName="Location" type="text" matInput> 
+    </mat-form-field>
+</form>
+     
+</div>
+<div mat-dialog-actions [align]="'end'">
+<button mat-raised-button color="warn" mat-dialog-close>close</button>
+<button mat-raised-button color="primary" (click)="addDetail()" >{{actionBtn}}</button>
+
+</div>

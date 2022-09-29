@@ -1,0 +1,35 @@
+{
+  "userData": [
+    {
+      "firstName": "hamza",
+      "lastName": "abbasi",
+      "Age": 24,
+      "Location": "lohaore",
+      "id": 4
+    },
+    {
+      "firstName": "rana ",
+      "lastName": "hmaza",
+      "Age": 24,
+      "Location": "lhr",
+      "id": 5
+    },
+    {
+      "firstName": "ali",
+      "lastName": "rana",
+      "Age": 22,
+      "Location": "multan",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
